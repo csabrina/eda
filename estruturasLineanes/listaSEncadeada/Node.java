@@ -1,4 +1,4 @@
-package estruturasLineanes;
+package estruturasLineanes.listaSEncadeada;
 
 // classe que representa um elemento na lista encadeada
 public class Node {

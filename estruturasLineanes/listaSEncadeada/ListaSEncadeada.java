@@ -1,4 +1,4 @@
-package estruturasLineanes;
+package estruturasLineanes.listaSEncadeada;
 
 //classe que representa uma lista simplesmente encadeada
 public class ListaSEncadeada {
@@ -75,7 +75,7 @@ public class ListaSEncadeada {
     // método para remover um elemento em um índice específico na lista
     public void remove(int index) {
         if (index < 0 || index >= count) { // verifica se o índice está dentro dos limites da lista
-            throw new IndexOutOfBoundsException("Índice fora dos limites."); // lança uma exceção se o índice estiver fora dos limites
+            throw new IndexOutOfBoundsException("Índice fora dos limites da lista."); // lança uma exceção se o índice estiver fora dos limites
         }
         if (index == 0) { // se o índice for 0, significa que o elemento a ser removido é o primeiro da lista
             head = head.next; // atualiza a cabeça da lista para o próximo nodo
